@@ -1,0 +1,33 @@
+.hot-drinks{
+    background-color: #FFF0ED;
+}
+.cold-drinks{
+display: flex;
+justify-content: center;
+
+}
+.pastries{
+    background-color: #FFF0ED;
+    
+}
+.coffeecircle{
+    width: 30rem;
+    height: 30rem;
+    
+
+}
+.drink-container {
+    display: flex;
+    height: 4rem;
+    justify-content: center;
+    background-color: #FFF0ED;
+}
+.dots{
+    display: flex;
+    justify-content: left;
+}
+.menub{
+    display: flex;
+    flex-direction: column-reverses;
+    justify-content: center;
+}

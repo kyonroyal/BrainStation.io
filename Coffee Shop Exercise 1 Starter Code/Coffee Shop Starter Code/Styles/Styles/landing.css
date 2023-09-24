@@ -1,0 +1,23 @@
+.Nav{
+    background-color: #FFF0ED;
+}
+.NitroC{
+    background-color: #FFF0ED;
+    font-weight: 700;
+}
+.discuento{
+    background-color: #393939;
+    color: white;
+    font-size: 3rem;
+}
+.Price{
+    color:#5BACC3;
+}
+.bolded{
+    font-weight: bold;
+}
+.button{
+    background-color: #5BACC3;
+    color: white;
+    font-size: 3rem;
+}

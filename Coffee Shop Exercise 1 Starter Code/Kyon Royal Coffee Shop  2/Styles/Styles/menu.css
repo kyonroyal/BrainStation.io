@@ -1,0 +1,105 @@
+body, h1, h2, h3, p, ul, li {
+    text-align: center;
+  }
+a: hover{
+  color: purple;
+}
+.hot-drinks{
+    background-color: #FFF0ED;
+}
+.cold-drinks{
+
+}
+.pastries{
+    background-color: #FFF0ED;
+}
+.coffeecircle{
+    width: 30rem;
+    height: 30rem;
+
+    
+
+}
+.dots{
+    display: inline-block;
+}
+.menu{
+    background-image: url(../../Assets/images/coffee-circle.jpg);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    padding: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+
+    
+
+    
+
+}
+
+  
+.menu h1 {
+   background-color: #393939;
+   height: 20rem;
+   width: 30rem;
+   padding: 2rem;
+   color: #FFF0ED;
+   text-align: center;
+   margin: 0 auto ;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-weight: 300;
+   
+   
+   
+   
+
+}
+.flex-container {
+    display: flex;
+    height: auto;
+    align-items: center;
+    background-color: #393939;
+    color: #FFF0ED;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: 2rem;
+    
+
+}
+.flex-container div {
+    flex: 1;
+    text-align: center;
+    padding: 1rem; 
+    font-weight: bold;
+    cursor: pointer;
+    border-right: 1px solid #5BACC3;
+}
+
+  .remove-underline {
+    text-decoration: none;
+    color: #393939;
+    margin-left: 20px; 
+  }
+  .highlight-link {
+    color: #5BACC3;
+  }
+  .hot-drinks p,
+.cold-drinks p,
+.pastries p {
+  color: #5BACC3;
+  
+}
+.description {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    color: #393939;
+  }
+

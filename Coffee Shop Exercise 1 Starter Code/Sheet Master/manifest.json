@@ -1,0 +1,16 @@
+
+{
+    "manifest_version": 3,
+    "name": "Sheet Master",
+    "version": "1.0",
+    "permissions": ["activeTab"],
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    },
+    "content_scripts": [{
+      "matches": ["*://*.xlsx", "*://*.xls"],
+      "js": ["spreadsheet.js"]
+    }]
+  }
+  
